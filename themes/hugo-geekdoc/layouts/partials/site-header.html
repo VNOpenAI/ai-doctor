@@ -9,8 +9,9 @@
         <a class="gdoc-header__link" href="{{ .Root.Site.BaseURL }}">
             <span class="gdoc-brand flex">
                 <img class="gdoc-brand__img" src="{{ (default "brand.svg" .Root.Site.Params.GeekdocLogo) | relURL }}" alt="">
-                <!-- <p>{{ .Root.Site.Params.description }}</p> -->
+                <p>{{ .Root.Site.Title }}</p>
             </span>
         </a>
+        <img style="margin-left: auto; height: 2.2rem; display: flex;" src="https://vnopenai.org/images/logo-with-slogan.svg" alt="">
     </div>
 </header>

@@ -1,6 +1,6 @@
 ---
 baseURL: https://dr.vnopenai.org/
-title: VN AIDr - Dự án xử lý ảnh y tế mở
+title: VN AIDr - Dự án xử lý ảnh y tế nguồn mở
 theme: hugo-geekdoc
 pygmentsUseClasses: true
 pygmentsCodeFences: true
@@ -20,9 +20,7 @@ markup:
     endLevel: 9
 
 params:
-  description: Dự án xử lý ảnh y tế mở
-
-  geekdocLogo: "/media/logo-dark.png"
+  geekdocLogo: "/media/lotus.png"
 
   geekdocToC: 3
 
