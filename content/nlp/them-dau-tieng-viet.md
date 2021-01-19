@@ -1,6 +1,6 @@
 ---
-title: "Các mô hình chính"
-weight: 90
+title: "Thêm dấu tiếng Việt cho báo cáo y tế"
+weight: 10
 ---
 
 ![Coming Soon](/media/under_construction.png)
