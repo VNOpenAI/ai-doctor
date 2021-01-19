@@ -1,0 +1,29 @@
+---
+baseURL: https://dr.vnopenai.org/
+title: VN AIDr - Dự án xử lý ảnh y tế mở
+theme: hugo-geekdoc
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+timeout: 180000
+
+# Geekdoc configuration
+disablePathToLower: true
+enableGitInfo: true
+
+# Needed for mermaid shortcodes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
+
+params:
+  geekdocToC: 3
+
+  geekdocRepo: https://github.com/VNOpenAI/dr.vnopenai.org
+  geekdocEditPath: edit/master/content
+
+  geekdocSearch: true
+  geekdocSearchShowParent: true
