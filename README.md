@@ -1,3 +1,3 @@
-# VN AIDr
+# Website của dự án VN AIDr
 
-Dự án xử lý ảnh y tế nguồn mở.
+Repo này chứa mã nguồn chính thức của Website <https://dr.vnopenai.org>, thuộc dự án xử lý ảnh y tế mã nguồn mở của [VNOpenAI](https://vnopenai.org).

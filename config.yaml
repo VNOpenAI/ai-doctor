@@ -20,6 +20,10 @@ markup:
     endLevel: 9
 
 params:
+  description: Dự án xử lý ảnh y tế mở
+
+  geekdocLogo: "/media/logo-dark.png"
+
   geekdocToC: 3
 
   geekdocRepo: https://github.com/VNOpenAI/dr.vnopenai.org

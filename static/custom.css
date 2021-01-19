@@ -4,9 +4,23 @@
 }
 
 .gdoc-header {
-    background: rgb(255,0,14);
-    background: linear-gradient(90deg, rgba(255,0,14,1) 0%, rgba(140,0,255,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 39%, rgba(0,125,255,1) 100%);
     padding-top: 0.5rem;
+    color: #333;
+    border-bottom-width: 2px;
+    border-bottom-color: #ddd;
+    padding: 0;
+}
+
+.gdoc-brand__img {
+    height: 4rem;
+}
+
+.gdoc-header__link * {
+    color: #555;
+    font-size: 1.0rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .gdoc-footer {
