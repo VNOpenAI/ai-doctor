@@ -25,3 +25,6 @@ title: VN AIDr
 - **Website:** <https://vnopenai.org/>.
 - **Email:** vnopenai@gmail.com.
 
+
+*\*Hình ảnh được lấy từ slide: [slides/vnopenai-vn-accent.pptx](/slides/vnopenai-vn-accent.pptx)*
+

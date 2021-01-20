@@ -1211,5 +1211,5 @@ img {
   background-color: rgba(255,102,102,.1)
 }
 .gdoc-mermaid {
-  font-family: "Liberation Sans",sans-serif
+  font-family: "Liberation Sans", sans-serif!important;
 }
