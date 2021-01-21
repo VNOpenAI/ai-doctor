@@ -30,7 +30,7 @@ Dữ liệu dùng cho bài toán này được chúng tôi thu thập từ 2 ngu
 
 ![Phương pháp chia dữ liệu](split-data.png)
 
-Các dữ liệu từ bước trên, sau quá trình xử lý được gộp vào nhau, trộn ngẫu nhiên và chia thành 3 tập: tập huần luyện (training set) gồm 3699831 câu, tập giám sát (validation set) gồm 411093 câu và tập kiểm thử (test set) gồm 456770 câu.
+Các dữ liệu từ bước trên, sau quá trình xử lý được gộp vào nhau, trộn ngẫu nhiên và chia thành 3 tập: tập huần luyện (training set) gồm 4547694 câu, tập giám sát (validation set) gồm 10000 câu và tập kiểm thử (test set) gồm 10000 câu.
 
 ## II. Huấn luyện
 
