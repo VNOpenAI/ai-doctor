@@ -24,14 +24,21 @@ Dữ liệu dùng cho bài toán này được chúng tôi thu thập từ 2 ngu
 - Tách các câu dựa vào các dấu chấm câu.
 - Với mỗi câu: loại bỏ các chữ số, dấu câu, các kí tự đặc biệt, chỉ giữ lại các từ tạo nên bởi các chữ cái tiếng Việt và tiếng Anh, ngăn cách chúng bởi 1 dấu cách.
 - Chuyển các câu về chữ thường.
+- Chuẩn hoá dấu câu: Trong các văn bản tiếng Việt, vị trí chữ cái bỏ dấu có thể không đồng nhất. Ví dụ với chữ "hoà", có văn bản viết "hoà", cũng có văn bản viết là "hòa". Chúng tôi thực hiện đưa vị trí bỏ dấu về một chuẩn chung. Trong trường hợp này, cả "hoà" và "hoà" đều được chuẩn hoá lại thành "hoà".
 - Loại bỏ các câu có dưới 10 từ và lớn hơn 200 từ rồi ghi ra tệp văn bản.
 - Tạo dữ liệu không dấu bằng cách loại bỏ dấu câu thông qua mã nguồn từ [aivivn.com](https://www.aivivn.com/contests/3).
+
+**Mã nguồn tiền xử lý dữ liệu:** 
+- <https://github.com/VNOpenAI/vn-accent/blob/master/preprocess_data/Preprocess_data_Wikipedia.ipynb>.
+- <https://github.com/VNOpenAI/vn-accent/blob/master/preprocess_data/Preprocess_data_yhocvn_net_benhvien108_vn.ipynb>.
 
 ### 2. Chia dữ liệu
 
 ![Phương pháp chia dữ liệu](split-data.png)
 
 Các dữ liệu từ bước trên, sau quá trình xử lý được gộp vào nhau, trộn ngẫu nhiên và chia thành 3 tập: tập huần luyện (training set) gồm 4750883 câu, tập giám sát (validation set) gồm 10000 câu và tập kiểm thử (test set) gồm 10000 câu.
+
+**Mã nguồn chia dữ liệu:**  <https://github.com/VNOpenAI/vn-accent/blob/master/preprocess_data/split_data.py>
 
 ## II. Huấn luyện
 
@@ -50,7 +57,22 @@ Chúng tôi cũng đã nghĩ đến phương pháp dự đoán dấu câu cho m�
 Để huấn luyện mô hình, chúng ta phải đưa vào dữ liệu dạng số. Chúng ta sẽ tạo một tham chiếu từ 1 từ sang 1 số và đưa vào mô hình dạng số của mỗi từ. Tham chiếu này được gọi là **tokenizer**. Khái niệm *từ* ở đây giống ở tiếng Anh, tức là tương đương một *tiếng*, hay *từ đơn* ở trong tiếng Việt. Chúng tôi không dùng tokenizer tạo từ các tập data trên mà dùng một danh sách từ lấy tại [vietnamese-wordlist](https://github.com/VNOpenAI/vietnamese-wordlist) để tạo bộ tokenizer bằng cách cắt các từ trong đó và chọn lại các từ đơn. Kết quả được khoảng 9000 từ có dấu, tương đương với khoảng 3000 từ đã bỏ dấu. Bộ tokenizer ở đây được xây dựng đơn giản bằng cách tham chiếu một từ với số thứ tự của nó trong danh sách thu được.
 
 ## 3. Kết quả thử nghiệm
+### 3.1. Độ đo đánh giá mô hình
 
-Kết quả thử nghiệm của các mô hình sẽ được cập nhật trong thời gian tới.
+Độ chính xác của mô hình được tính bằng công thức $Acc = R / N$, trong đó $R$ là số chữ được dự đoán đúng dâu câu, $N$ là tổng số chữ trong văn bản.
+
+### 3.2. Kết quả
+
+Kết quả kiểm thử (độ chính xác) trên tập test của các mô hình như sau:
+
+|Mô hình| Tham số huấn luyện | Độ chính xác |
+|---|---|---|
+|Large BiLSTM|Adam, betas=(0.9, 0.98), lr=1e-4, epochs=19|Đang cập nhật...|
+|Evolved Transformer |Adam, betas=(0.9, 0.98), lr=3e-4, epochs=14| 97.94% |
+|Transformer |Đang cập nhật...| Đang cập nhật... |
+
+## 4. Triển khai
+
+Khi triển khai lên phần mềm VN AIDr, chúng tôi viết thêm các đoạn mã tiền/hậu xử lý để việc thêm dấu giữ lại được đúng định dạng đầu vào của văn bản như vị trí chữ cần thêm dấu, 
 
 *\*Hình ảnh được lấy từ slide: [slides/vnopenai-vn-accent.pptx](/slides/vnopenai-vn-accent.pptx)*
