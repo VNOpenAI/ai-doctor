@@ -1,6 +1,14 @@
-.gdoc-nav__list li ul li {
-    list-style: decimal-leading-zero;
+.gdoc-nav--main > .gdoc-nav__list > li > ul > li {
+    list-style: upper-roman;
     margin-left: 1.2rem;
+}
+
+.gdoc-nav--main > .gdoc-nav__list > li > ul > li > ul > li {
+    list-style: decimal;
+}
+
+.gdoc-nav--main > .gdoc-nav__list > li > ul > li > ul > li > ul > li {
+    list-style: circle;
 }
 
 .gdoc-header {
