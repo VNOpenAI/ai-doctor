@@ -31,10 +31,9 @@ Kết quả kiểm thử (độ chính xác) trên tập test của các mô hì
 
 |Mô hình| Tham số huấn luyện | Độ chính xác |
 |---|---|---|
-|Large BiLSTM|Adam, betas=(0.9, 0.98), lr=1e-4, epochs=19|Đang cập nhật...|
+|Large BiLSTM|Adam, betas=(0.9, 0.98), lr=1e-4, epochs=19| 95.71% |
 |Evolved Transformer |Adam, betas=(0.9, 0.98), lr=3e-4, epochs=14| 97.94% |
 |Transformer |Đang cập nhật...| Đang cập nhật... |
-
 
 
 *\*Hình ảnh được lấy từ slide: [slides/vnopenai-vn-accent.pptx](/slides/vnopenai-vn-accent.pptx)*
