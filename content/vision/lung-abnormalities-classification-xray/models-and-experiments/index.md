@@ -184,8 +184,7 @@ Conditional training khai thác hệ thống phân cấp qua 2 bước.
     các mối quan hệ phụ thuộc giữa parent và child labels và tập trung
     vào việc phân biệt các nhãn cấp dưới, đặc biệt là các nhãn lá. Trong
     bước này, CNN được pretrained trên một tập huấn luyện chứa tất cả
-    các parent labels dương để phân loại các child labels; quy trình này
-    được minh họa trong *Hình 8.*
+    các parent labels dương để phân loại các child labels.
 
 -   Trong bước thứ hai, *transfer learning* sẽ được khai thác. Cụ thể,
     đóng băng tất cả các lớp của *pretrained model* ngoại trừ lớp *fully
