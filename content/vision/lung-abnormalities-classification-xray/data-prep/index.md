@@ -27,4 +27,6 @@ Chúng tôi chỉ tập trung vào việc đánh giá 5 trong 14 quan sát, đư
 - (d) Phù nề (Edema)
 - (e) Tràn dịch màng phổi (Pleural Effusion)
 
+## 2. Phân chia dữ liệu thử nghiệm
 
+Dữ liệu được chia thành 2 tập là tập huấn luyện (training set) với 223414 ảnh và tập giám sát (validation set) với 234 ảnh. Chúng tôi thực hiện đánh giá các thử nghiệm trên tập giám sát này.
