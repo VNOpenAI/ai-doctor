@@ -70,15 +70,14 @@ Chúng tôi cũng sử dụng phần Encoder của mô hình Evolved Transformer
 
 ### 3.2. Kết quả
 
-Kết quả kiểm thử mô hình sẽ được công bố trong thời gian tới.
-
-<!-- Kết quả kiểm thử (độ chính xác) trên tập test của các mô hình như sau:
+Kết quả kiểm thử (độ chính xác) trên tập giám sát (validation) của các mô hình như sau.
 
 |Mô hình| Tham số huấn luyện | Độ chính xác |
 |---|---|---|
-|Large BiLSTM|Adam, betas=(0.9, 0.98), lr=1e-4, epochs=19| 95.71% |
-|Evolved Transformer |Adam, betas=(0.9, 0.98), lr=3e-4, epochs=14| 97.94% |
-|Transformer |Đang cập nhật...| Đang cập nhật... | -->
+|Large BiLSTM|Adam, betas=(0.9, 0.98), lr=1e-4, epochs=19| 95.90% |
+|Transformer |Adam, betas=(0.9, 0.98), lr=3e-4, epochs=26| 84.59% |
+|Evolved Transformer |Adam, betas=(0.9, 0.98), lr=3e-4, epochs=15| 98.12% |
 
+Như vậy, mô hình này đạt độ chính xác tốt nhất trong các mô hình chúng tôi đã triển khai. Mô hình này đạt độ chính xác 98.07% trên tập kiểm thử (test set).
 
 *\*Hình ảnh được lấy từ slide: [slides/vnopenai-vn-accent.pptx](/slides/vnopenai-vn-accent.pptx)*
