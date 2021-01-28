@@ -7,7 +7,7 @@ weight: 30
 
 Chúng tôi xây dựng phần mềm xử lý ảnh y tế **VN AIDr** như một giao diện để tương tác với các thuật toán và mô hình đã huấn luyện. Toàn bộ mã nguồn **VN AIDr** được xây dựng trên nguyên tắc đơn giản, dễ dùng, dễ mở rộng để sử dụng với các mô hình và nhiệm vụ khác. Phía dưới đây là demo giao diện chương trình.
 
-![Giao diện VN AIDr](https://raw.githubusercontent.com/VNOpenAI/vn-aidr/master/screenshots/screen.png)
+[![Giao diện VN AIDr - Click để tới video demo](https://raw.githubusercontent.com/VNOpenAI/vn-aidr/master/screenshots/screen.png)](https://youtu.be/pw62Hxy-BeE)
 
 Frontend của phần mềm hiện đang sử dụng sử dụng các framework Bootstrap, Jquery. Phần backend đang sử dụng framework [FastAPI](https://fastapi.tiangolo.com/). Chúng tôi có dự định chuyển frontend của phần mềm sang sử dụng [ReactJS](https://reactjs.org/), và đang cần thêm lập trình viên tham gia dự án. Nếu các bạn mong muốn tham gia cùng chúng tôi, cùng xây dựng VN AIDr tốt hơn mỗi ngày, hãy gửi cho chúng tôi một tin nhắn tại [trang liên hệ của VNOpenAI](https://vnopenai.org/contact/).
 
