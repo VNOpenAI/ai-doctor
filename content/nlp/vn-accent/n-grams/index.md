@@ -48,7 +48,7 @@ hoặc do sự phân bố không đều trong tập huấn luyện sẽ dẫn t�
 không chính xác. Vì vậy người ta đưa ra phương pháp làm mịn để khắc phục vấn đề
 này
 
-**Các phương pháp làm mịn có thể chia thành 3 loại chính:**
+**Một số phương pháp làm mịn phổ biến:**
 
 -   Discounting: giảm xác suất các cụm n-grams có xác suất lớn hơn 0 để bù cho
     các cụm n-grams chưa xuất hiện
@@ -163,6 +163,6 @@ các tham số khác nhau của thuật toán beam search.
 
 ## Tham khảo
 
-<https://viblo.asia/p/language-modeling-mo-hinh-ngon-ngu-va-bai-toan-them-dau-cau-trong-tieng-viet-1VgZveV2KAw?fbclid=IwAR27jOzmETv8zUj-idE5uMh7BGuKQqvOMtnTRpAdqVhhVwDHXbuTfYy59J0>
+- <https://viblo.asia/p/language-modeling-mo-hinh-ngon-ngu-va-bai-toan-them-dau-cau-trong-tieng-viet-1VgZveV2KAw?fbclid=IwAR27jOzmETv8zUj-idE5uMh7BGuKQqvOMtnTRpAdqVhhVwDHXbuTfYy59J0>
 
-<https://machinelearningmastery.com/beam-search-decoder-natural-language-processing>
+- <https://machinelearningmastery.com/beam-search-decoder-natural-language-processing>

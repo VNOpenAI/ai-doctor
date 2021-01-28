@@ -7,11 +7,11 @@ weight: 30
 
 ### 1.1. U-Net
 
-Một trong những mạng phổ biến nhất của bài toán đoạn ảnh là mô hình U-Net, và nhiều biến thể của mô hình U-Net
+Một trong những mạng phổ biến nhất của bài toán đoạn ảnh là mô hình U-Net, và nhiều biến thể của mô hình U-Net.
 
 ![U-Net](unet.png)
 
-nhóm chúng tôi đã thử nghiệm lại mô hình này như những bước tiếp cận ban đầu. cấu trúc mô hình đã được sửa lại cho phù hợp với bài toán, hàm kích hoạt đầu ra là sigmoid-function cho đầu ra hai lớp.
+Chúng tôi đã thử nghiệm lại mô hình này như những bước tiếp cận ban đầu. cấu trúc mô hình đã được sửa lại cho phù hợp với bài toán, hàm kích hoạt đầu ra là sigmoid cho đầu ra hai lớp.
 
 ### 1.2. Double U-Net
 
@@ -24,17 +24,19 @@ Mô hình cải tiến của U-Net, với kiến trúc mạng gồm hai mạng c
 
 Cả 2 mô hình đều sử dụng :
 
-- Hàm mục tiêu sử dụng : Dice loss.
+- **Hàm mục tiêu sử dụng:** Dice loss.
 
-- Độ đo : Mean intersection of union (IOU).
+- **Độ đo:** Mean intersection of union (IOU).
 
-Thuật toán huấn luyện Adame với tốc độ học 0.00001. Sau 80 epochs với cùng tập dữ liệu và cùng một cách tiền xử lý.
+Thuật toán huấn luyện Adame với tốc độ học $10^{-5}$. Sau 80 epochs với cùng tập dữ liệu và cùng một cách tiền xử lý.
 
-![result](result.png "ressult")
+| Mô hình              | U-Net | Double U-Net |
+|----------------------|-------|--------------|
+| Jarccard Index (IoU) | 0.79  | 0.82         |
 
-Kết quả cuối cùng mô hình tốt nhất trên tập kiểm thử là jaccard-index = 0.79.
+Kết quả cuối cùng mô hình tốt nhất trên tập kiểm thử là IOU = 0.79.
 
-![demo](demo.png "demo")
+![Kết quả chạy thử mô hình trên ảnh](demo.png)
 
 ## Tham khảo
 

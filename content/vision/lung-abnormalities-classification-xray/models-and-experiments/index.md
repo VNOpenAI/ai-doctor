@@ -251,7 +251,7 @@ classification”* trên tập data CheXpert
 **Bảng 4**. Kết quả thử nghiệm với 4 backbone khác nhau của mô hình Conditional
 Training*
 
-### 4.3. Thử nghiệm 1
+### 4.3. Thử nghiệm 3
 
 \- Thử nghiệm 3 thực hiện ensemble các kiến trúc đã mô tả ở trên với 4 backbone
 khác nhau và so sánh chất lượng các mô hình ensemble với nhau.

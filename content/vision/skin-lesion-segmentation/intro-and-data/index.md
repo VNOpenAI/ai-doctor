@@ -16,7 +16,7 @@ Một trong nhưng vấn đề khó của phân đoạn ảnh y tế là không 
 
 Như đề cập trước giới hạn về nguồn dữ liệu là một vấn đề khó, cuộc thi [ISIC2018_task1](https://challenge2018.isic-archive.com/) cung cấp một lượng dữ liệu chất lượng đã được gán nhãn bởi các chuyên gia y tế. Tập dữ liệu do ban tổ chức cung cấp bao gồm tập ảnh train-validation-test, nhưng do cuộc thi đã kết thúc nên không thể lấy được tập test của ban tổ chức, chúng tôi quyết định sử dụng tập validation của ban tổ chức làm tập dữ liệu test và tập dữ liệu train của ban tổ chức sẽ chia làm hai để huấn luyện và lựa chọn mô hình.
 
-Dữ liệu bao gồm:
+**Dữ liệu bao gồm:**
 
 * 2051 ảnh huấn luyện 
 * 500 ảnh tập giám sát
@@ -30,4 +30,4 @@ Với mô hình thử nghiệm khác nhau đều sử dụng chung cách thức 
 
 Áp dụng các phương pháp làm giàu và chuẩn hóa dữ liệu thông thường:
 
-![Data_augmentation](data-augmented.png)
+![Data augmentation](data-augmented.png)
