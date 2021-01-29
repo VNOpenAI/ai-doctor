@@ -34,13 +34,13 @@
     width: 4rem;
     padding: 0.4rem 0.2rem 0.4rem 0.6rem;
     border-radius: 50%;
-    background-color: #575757;
-    border: 3px solid #89999c;
+    background-color: #011f7a;
+    border: 3px solid #0a38c2;
     transition: background 0.5s;
 }
 
 .gdoc-brand__img:hover {
-    background-color: #2e2e2e;
+    background-color: #0031c5;
 }
 
 .gdoc-header__link * {
