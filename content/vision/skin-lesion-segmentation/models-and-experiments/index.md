@@ -25,18 +25,17 @@ Mô hình cải tiến của U-Net, với kiến trúc mạng gồm hai mạng c
 Cả 2 mô hình đều sử dụng :
 
 - **Hàm mục tiêu sử dụng:** Dice loss.
-
-- **Độ đo:** Mean intersection of union (IOU).
+- **Độ đo:** Mean intersection of union (Mean IoU).
 
 Thuật toán huấn luyện Adame với tốc độ học $10^{-5}$. Sau 80 epochs với cùng tập dữ liệu và cùng một cách tiền xử lý.
 
 | Mô hình              | U-Net | Double U-Net |
 |----------------------|-------|--------------|
-| Jarccard Index (IoU) | 0.79  | 0.82         |
+| Mean IoU             | 0.79  | 0.82         |
 
 Kết quả cuối cùng mô hình tốt nhất trên tập kiểm thử là IOU = 0.79.
 
-![Kết quả chạy thử mô hình trên ảnh](demo.png)
+![Kết quả chạy thử mô hình trên tập kiểm thử (test set)](demo.png)
 
 ## Tham khảo
 
