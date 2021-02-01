@@ -20,7 +20,8 @@ markup:
     endLevel: 9
 
 params:
-  geekdocLogo: "/media/lotus.png"
+  subtitle: "Dự án xử lý ảnh y tế nguồn mở"
+  geekdocLogo: "/media/logo-dark-text.svg"
 
   geekdocToC: 3
 
