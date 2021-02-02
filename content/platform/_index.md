@@ -1,4 +1,5 @@
 ---
+menutitle: VN AIDr Platform - Nền tảng phần mềm
 title: VN AIDr Platform - Phần mềm xử lý ảnh y tế nguồn mở
 weight: 30
 ---
