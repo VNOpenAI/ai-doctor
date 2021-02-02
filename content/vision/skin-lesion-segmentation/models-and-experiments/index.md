@@ -1,5 +1,6 @@
 ---
-title: "Mô hình và thử nghiệm"
+menutitle: "Mô hình và thử nghiệm"
+title: "Mô hình và thử nghiệm - Khoanh vùng tổn thương da"
 weight: 30
 ---
 
@@ -15,7 +16,7 @@ Chúng tôi đã thử nghiệm lại mô hình này như những bước tiếp
 
 ### 1.2. Double U-Net
 
-Mô hình cải tiến của U-Net, với kiến trúc mạng gồm hai mạng con, gần giống với hai mạng U-net nối tiếp. đều có dạng encoder - decoder. Ở phần decoder2 có concatenate với skip-connections của decoder 1. Đầu ra của mạng bao gồm đầu ra của 2 mạng con. Trong bài báo gốc, tác giả chỉ ra rằng cả hai đầu ra đều có thể sử dụng để phân vùng ảnh, mạng con thứ 2 có tác dụng như là tinh chỉnh lại đầu ra. Một cải tiến nữa của U-Net là sử dụng ASPP.
+Mô hình cải tiến của U-Net, với kiến trúc mạng gồm hai mạng con, gần giống với hai mạng U-Net nối tiếp. đều có dạng encoder - decoder. Ở phần decoder2 có concatenate với skip-connections của decoder 1. Đầu ra của mạng bao gồm đầu ra của 2 mạng con. Trong bài báo gốc, tác giả chỉ ra rằng cả hai đầu ra đều có thể sử dụng để phân vùng ảnh, mạng con thứ 2 có tác dụng như là tinh chỉnh lại đầu ra. Một cải tiến nữa của U-Net là sử dụng ASPP.
 
 ![DoubleU-net](DoubleU-net_Architecture.png)
 

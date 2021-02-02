@@ -1,5 +1,6 @@
 ---
-title: Các mô hình học sâu
+menutitle: Các mô hình học sâu
+title: Các mô hình học sâu - Thêm dấu tiếng Việt
 weight: 40
 ---
 

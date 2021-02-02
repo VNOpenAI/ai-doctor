@@ -1,5 +1,6 @@
 ---
-title: "Giới thiệu bài toán"
+menutitle: "Giới thiệu bài toán"
+title: "Giới thiệu bài toán - Phân loại bất thường trên phổi từ ảnh x-quang"
 weight: 10
 ---
 

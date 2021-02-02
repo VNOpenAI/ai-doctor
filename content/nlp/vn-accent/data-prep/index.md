@@ -1,5 +1,6 @@
 ---
-title: "Chuẩn bị dữ liệu"
+menutitle: "Chuẩn bị dữ liệu"
+title: "Chuẩn bị dữ liệu - Thêm dấu tiếng Việt"
 weight: 20
 ---
 

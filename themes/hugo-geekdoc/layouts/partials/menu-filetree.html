@@ -24,11 +24,11 @@
             {{ if or .Content .Params.GeekdocFlatSection }}
                 <span class="flex">
                     <a href="{{ .RelPermalink }}" class="gdoc-nav__entry {{ if eq $current . }}is-active{{ end }}">
-                        {{ partial "title" . }}
+                        {{ if .Params.menutitle }}{{ .Params.menutitle }}{{ else }}{{ partial "title" . }}{{ end }}
                     </a>
                 </span>
             {{ else }}
-                <span class="flex">{{ partial "title" . }}</span>
+                <span class="flex">{{ if .Title }}{{ partial "title" . }}{{ else }}{{ .menutitle }}{{ end }}</span>
             {{ end }}
             {{ if and $isParent .Params.GeekdocCollapseSection }}
                 <svg class="icon keyborad_arrow_left"><use xlink:href="#keyborad_arrow_left"></use></svg>

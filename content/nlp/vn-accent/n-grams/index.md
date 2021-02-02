@@ -1,5 +1,6 @@
 ---
-title: Mô hình N-grams
+menutitle: Mô hình N-grams
+title: Mô hình N-grams - Thêm dấu tiếng Việt
 weight: 30
 ---
 

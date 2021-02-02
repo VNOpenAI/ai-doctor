@@ -1,5 +1,6 @@
 ---
-title: "Giới thiệu bài toán"
+menutitle: "Giới thiệu bài toán"
+title: "Giới thiệu bài toán - Thêm dấu tiếng Việt"
 weight: 10
 ---
 

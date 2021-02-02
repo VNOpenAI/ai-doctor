@@ -1,5 +1,6 @@
 ---
-title: "Giới thiệu bài toán và dữ liệu"
+menutitle: "Giới thiệu bài toán và dữ liệu"
+title: "Giới thiệu bài toán và dữ liệu - Khoanh vùng tổn thương da"
 weight: 30
 ---
 

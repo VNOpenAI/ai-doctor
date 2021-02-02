@@ -1,5 +1,6 @@
 ---
-title: "Thiết kế mô hình và thử nghiệm"
+menutitle: "Thiết kế mô hình và thử nghiệm"
+title: "Thiết kế mô hình và thử nghiệm - Phân loại bất thường trên phổi từ ảnh x-quang"
 weight: 30
 ---
 
@@ -94,7 +95,6 @@ các mô hình FMC.
 ## 3. Hierarchical Multi-Label Classification (HMC)
 
 ### 3.1. Label smoothing regularization (LSR) cho các uncertainty
-label
 
 Một vấn đề thách thức khác trong phân loại đa nhãn của CXR là chúng ta
 có thể không có toàn quyền truy cập vào các nhãn thực cho tất cả các

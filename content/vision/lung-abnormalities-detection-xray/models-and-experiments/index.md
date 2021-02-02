@@ -1,5 +1,6 @@
 ---
-title: "Mô hình và thử nghiệm"
+menutitle: "Mô hình và thử nghiệm"
+title: "Mô hình và thử nghiệm - Phát hiện và khanh vùng bất thường trên phổi từ ảnh x-quang"
 weight: 30
 ---
 

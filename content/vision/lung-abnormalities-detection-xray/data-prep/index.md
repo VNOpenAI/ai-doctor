@@ -1,5 +1,6 @@
 ---
-title: "Chuẩn bị dữ liệu"
+menutitle: "Chuẩn bị dữ liệu"
+title: "Chuẩn bị dữ liệu - Phát hiện và khanh vùng bất thường trên phổi từ ảnh x-quang"
 weight: 20
 ---
 
