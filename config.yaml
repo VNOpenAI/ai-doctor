@@ -28,5 +28,6 @@ params:
   geekdocRepo: https://github.com/VNOpenAI/dr.vnopenai.org
   geekdocEditPath: edit/master/content
 
+  geekdocBreadcrumb: false
   geekdocSearch: true
   geekdocSearchShowParent: true
