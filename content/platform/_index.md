@@ -17,8 +17,14 @@ Chương trình được xây dựng trên nền tảng web. Các mô hình và 
 
 ![Kiến trúc hệ thống dạng Client - Server của hệ thống](client-server-architecture.png)
 
-## 3. Thiết lập và chạy thử
 
+## 3. Mã nguồn
+
+Toàn bộ mã nguồn của dự án **VN AIDr** đều được mở cho cộng đồng. Chúng tôi rất hoan nghênh các đóng góp của các bạn cho mã nguồn, mô hình và các ý kiến liên quan đến y học. Mã nguồn có thể được đóng góp trực tiếp bằng cách tạo pull request tại các repo của dự án. Các ý kiến khác có thể được gửi qua [Trang liên hệ](https://vnopenai.org/contact/).
+
+- Mã nguồn của nền tảng VN AIDr: <https://github.com/VNOpenAI/vn-aidr>.
+
+## 4. Thiết lập và chạy thử
 ### Yêu cầu hệ thống:
 
 - Python 3.7 + Pip. Chúng tôi khuyến khích các bạn sử dụng [Miniconda](https://docs.conda.io/en/latest/miniconda.html) hoặc [Anaconda](https://www.anaconda.com/).
