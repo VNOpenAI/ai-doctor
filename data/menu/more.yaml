@@ -4,7 +4,7 @@ more:
     ref: "/posts"
     icon: "notification"
   - name: VNOpenAI
-    ref: "http://vnopenai.org/"
+    ref: "http://vnopenai.github.io/"
     external: true
     icon: "path"
   - name: "Github dự án"

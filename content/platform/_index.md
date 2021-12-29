@@ -10,7 +10,7 @@ Chúng tôi xây dựng phần mềm xử lý ảnh y tế **VN AIDr** như mộ
 
 [![Giao diện VN AIDr - Click để tới video demo](https://raw.githubusercontent.com/VNOpenAI/vn-aidr/master/screenshots/screen.png)](https://youtu.be/pw62Hxy-BeE)
 
-Frontend của phần mềm hiện đang sử dụng sử dụng các framework Bootstrap, Jquery. Phần backend đang sử dụng framework [FastAPI](https://fastapi.tiangolo.com/). Chúng tôi có dự định chuyển frontend của phần mềm sang sử dụng [ReactJS](https://reactjs.org/), và đang cần thêm lập trình viên tham gia dự án. Nếu các bạn mong muốn tham gia cùng chúng tôi, cùng xây dựng VN AIDr tốt hơn mỗi ngày, hãy gửi cho chúng tôi một tin nhắn tại [trang liên hệ của VNOpenAI](https://vnopenai.org/contact/).
+Frontend của phần mềm hiện đang sử dụng sử dụng các framework Bootstrap, Jquery. Phần backend đang sử dụng framework [FastAPI](https://fastapi.tiangolo.com/). Chúng tôi có dự định chuyển frontend của phần mềm sang sử dụng [ReactJS](https://reactjs.org/), và đang cần thêm lập trình viên tham gia dự án. Nếu các bạn mong muốn tham gia cùng chúng tôi, cùng xây dựng VN AIDr tốt hơn mỗi ngày, hãy gửi cho chúng tôi một tin nhắn tại [trang liên hệ của VNOpenAI](https://vnopenai.github.io/contact/).
 
 ## 2. Luồng hoạt động
 
@@ -21,7 +21,7 @@ Chương trình được xây dựng trên nền tảng web. Các mô hình và 
 
 ## 3. Mã nguồn
 
-Toàn bộ mã nguồn của dự án **VN AIDr** đều được mở cho cộng đồng. Chúng tôi rất hoan nghênh các đóng góp của các bạn cho mã nguồn, mô hình và các ý kiến liên quan đến y học. Mã nguồn có thể được đóng góp trực tiếp bằng cách tạo pull request tại các repo của dự án. Các ý kiến khác có thể được gửi qua [Trang liên hệ](https://vnopenai.org/contact/).
+Toàn bộ mã nguồn của dự án **VN AIDr** đều được mở cho cộng đồng. Chúng tôi rất hoan nghênh các đóng góp của các bạn cho mã nguồn, mô hình và các ý kiến liên quan đến y học. Mã nguồn có thể được đóng góp trực tiếp bằng cách tạo pull request tại các repo của dự án. Các ý kiến khác có thể được gửi qua [Trang liên hệ](https://vnopenai.github.io/contact/).
 
 - Mã nguồn của nền tảng VN AIDr: <https://github.com/VNOpenAI/vn-aidr>.
 
